@@ -5,7 +5,7 @@ let lista = {
 id : 23561342,
 nombres : 'jhonatan',
 apellido : 'valencia',
-telefono : 3215678900,
+telefono : 32156789009900,
 ubicacion: {
     ciudad : 'medellin',
     direccion : 'mz8cs666',
