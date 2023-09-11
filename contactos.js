@@ -42,3 +42,21 @@ function eliminarc (id){
 console.log(contactos)
 eliminarc(2356134222)
 console.log(contactos)
+
+function actcontacto (id, newnombre, newapellido, newtelefono, newciudad, newdireccion){
+      for (let j=0; j<lista.length; i++){
+       if (lista[j].id===id){
+        lista[j]={
+            id, nombre:newnombre, apellido: newapellido, telefono:newtelefono,
+            
+            ubicacion:{
+                ciudad:newciudad, 
+                direccion:newdireccion,
+        }
+       }
+    }
+  }
+}
+console.log(lista)
+actcontacto(7855554433, 'stiven', 'valencia','3232435325', 'cali', 'av siempre viva')
+console.log(actcontacto)
